@@ -28,7 +28,7 @@ fn main() {
             Ordering::Less => println!(" -> (Numero bajo)\n"),
             Ordering::Greater => println!(" ->(Numero alto)\n"),
             Ordering::Equal => {
-                println!("\nGANESTE!");
+                println!("\nGANASTE!");
                 break;
             }
         }
